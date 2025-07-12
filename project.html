@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gusto Italiano</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+  <section id="home">
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Full-screen image section -->
+        <header class="hero-section">
+          <div class="hero-content text-center text-white">
+            <h2 style="font-size: 50px; font-family: Arial, Helvetica, sans-serif;">Reseve</h2>
+            <h1>Welcome to Gusto Italiano</h1>
+             <h1>Restaurant</h1>
+            <p>Authentic Italian Dining Experience</p>
+           
+          </div>
+        </header>
+
+
+        <!-- home section start-->
+
+        <nav class="navbar navbar-expand-lg fixed-top ">
+          <div class="container">
+            <a class="navbar-brand" href="#">Gusto Italiano</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Reviews</a>
+                </li> -->
+                  <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+  </section>
+  <!-- home section end -->
+
+  <!-- Menu section start -->
+
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="row">
+
+        <div class="menu-text">
+          <h1>Menu</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A autem labore nemo accusamus aliquam? Maxime quam
+            libero dolorem sapiente <br> reprehenderit tenetur aut repudiandae alias sequi in, eos deleniti labore
+            Maxime
+            quam libero dolorem sapiente reprehenderit <br> tenetur aut repudiandae alias sequi in, eos deleniti labore
+            Maxime quam libero dolorem sapiente </p>
+        </div>
+
+        <div class="menu-img">
+        <div class="card menu-item" data-category="starters" style="display: block;">
+          <img src="./assets/images/menu img 3.jpg" alt="Avocado Toast">
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <div>
+                <h3>Artisanal Avocado Toast</h3>
+                <span class="menu-item-calories">280 cal</span>
+                <span class="health-tag">Vegan</span>
+              </div>
+              <div>$12</div>
+            </div>
+            <p>Sourdough, smashed avocado, microgreens, cherry tomatoes</p>
+            <button class="button" onclick="openOrderModal('Artisanal Avocado Toast', 12)">
+              Order Now
+            </button>
+          </div>
+        </div>
+
+              <div class="menu-img">
+        <div class="card menu-item" data-category="starters" style="display: block;">
+          <img src="./assets/images/Banana Nice Cream.jpg" alt="Avocado Toast">
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <div>
+                <h3>Artisanal Avocado Toast</h3>
+                <span class="menu-item-calories">280 cal</span>
+                <span class="health-tag">Vegan</span>
+              </div>
+              <div>$12</div>
+            </div>
+            <p>Sourdough, smashed avocado, microgreens, cherry tomatoes</p>
+            <button class="button" onclick="openOrderModal('Artisanal Avocado Toast', 12)">
+              Order Now
+            </button>
+          </div>
+        </div>
+
+              <div class="menu-img">
+        <div class="card menu-item" data-category="starters" style="display: block;">
+          <img src="./assets/images/2.jpg" alt="Avocado Toast">
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <div>
+                <h3>Artisanal Avocado Toast</h3>
+                <span class="menu-item-calories">280 cal</span>
+                <span class="health-tag">Vegan</span>
+              </div>
+              <div>$12</div>
+            </div>
+            <p>Sourdough, smashed avocado, microgreens, cherry tomatoes</p>
+            <button class="button" onclick="openOrderModal('Artisanal Avocado Toast', 12)">
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        
+        </div>
+
+      </div>
+    </div>
+
+      <div class="row">
+        
+        <div class="menu-img">
+        <div class="card menu-item" data-category="starters" style="display: block;">
+          <img src="./assets/images/3.jpg" alt="Avocado Toast">
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <div>
+                <h3>Artisanal Avocado Toast</h3>
+                <span class="menu-item-calories">280 cal</span>
+                <span class="health-tag">Vegan</span>
+              </div>
+              <div>$12</div>
+            </div>
+            <p>Sourdough, smashed avocado, microgreens, cherry tomatoes</p>
+            <button class="button" onclick="openOrderModal('Artisanal Avocado Toast', 12)">
+              Order Now
+            </button>
+          </div>
+        </div>
+
+              <div class="menu-img">
+        <div class="card menu-item" data-category="starters" style="display: block;">
+          <img src="./assets/images/4.jpg" alt="Avocado Toast">
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <div>
+                <h3>Artisanal Avocado Toast</h3>
+                <span class="menu-item-calories">280 cal</span>
+                <span class="health-tag">Vegan</span>
+              </div>
+              <div>$12</div>
+            </div>
+            <p>Sourdough, smashed avocado, microgreens, cherry tomatoes</p>
+            <button class="button" onclick="openOrderModal('Artisanal Avocado Toast', 12)">
+              Order Now
+            </button>
+          </div>
+        </div>
+
+              <div class="menu-img">
+        <div class="card menu-item" data-category="starters" style="display: block;">
+          <img src="./assets/images/6.jpg" alt="Avocado Toast">
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <div>
+                <h3>Artisanal Avocado Toast</h3>
+                <span class="menu-item-calories">280 cal</span>
+                <span class="health-tag">Vegan</span>
+              </div>
+              <div>$12</div>
+            </div>
+            <p>Sourdough, smashed avocado, microgreens, cherry tomatoes</p>
+            <button class="button" onclick="openOrderModal('Artisanal Avocado Toast', 12)">
+              Order Now
+            </button>
+          </div>
+        </div>
+
+  
+        </div>
+
+
+        
+
+  </section>
+
+
+                                        <!-- about section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <h1 style="text-align: center; padding-top: 40px;">About</h1>
+        <div class="about-img">
+
+          <div class="col">
+            <img src="assets/images/gallery 2.jpg" width="100%" alt="">
+
+            <h4>Food with Basil Leaf</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="col">
+            <img src="assets/images/about 2.jpg" width="100%" alt="">
+            <h4>Food with Basil Leaf</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="col">
+            <img src="assets/images/gallery 1.jpg" width="100%" alt="">
+            <h4>Food with Basil Leaf</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div style="padding-top: 50px; width: 100%;" class="testimonial-section d-flex">
+
+      <div class="testimoinal-img">
+        <img src="assets/images/img.jpg" alt="">
+        <h1>Restaurant Manager</h1>
+      </div>
+
+      <div class="testimoinal-text ">
+        <h1>Testimonials</h1>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo asperiores accusantium perspiciatis harum
+          voluptatum adipisci est, sequi voluptate recusandae, modi eos. Incidunt itaque sequi perspiciatis. Perferendis
+          facilis assumenda expedita obcaecati. Incidunt itaque sequi perspiciatis. Perferendis facilis assumenda
+          expedita obcaecati. Incidunt itaque sequi perspiciatis. Perferendis facilis assumenda expedita obcaecati.
+          Incidunt itaque sequi perspiciatis. Perferendis facilis assumenda expedita obcaecati. Incidunt itaque sequi
+          perspiciatis. Perferendis facilis assumenda expedita obcaecati. Incidunt itaque sequi perspiciatis.
+          Perferendis facilis assumenda expedita obcaecati. Incidunt itaque sequi perspiciatis. Perferendis facilis
+          assumenda expedita obcaecati.</p>
+
+        <div class="btn">
+          <a href="" class="lerem ">See Lorem</a>
+          <a href="" class="more">See More</a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+  <!-- Menu section end -->
+
+  <!-- Gallery section start -->
+  <section class="gallery" id="gallery">
+    <div class="container-fluid">
+      <div class="row">
+        <h1 style="text-align: center; padding-top: 30px;">Gallery</h1>
+        <div class="top-gallery">
+
+          <div class="col">
+            <img src="assets/images/gallery 1.jpg" width="100%" alt="">
+          </div>
+          <div style="width: 100%;" class="col gallery-text">
+            <h1>Gallery</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Voluptatum cumque cum odit sequi fugiat nam vel!
+              Magnam culpa animi</p>
+            <div class="btn"><a href="">Img Gallery</a></div>
+          </div>
+          <div class="col">
+            <img src="assets/images/gallery 2.jpg" width="100%" alt="">
+          </div>
+
+        </div>
+        <div class="card-incom">
+
+          <h1>Testimonial Carousel</h1>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque delectus laborum, laudantium excepturi
+            quaerat sint eum fugiat aperiam reprehenderit, odit facere ratione qui debitis voluptas porro quam! Eius,
+            dolores sequi excepturi quaerat sint eum fugiat aperiam reprehenderit, odit facere ratione qui debitis
+            voluptas porro quam! Eius, dolores sequi excepturi quaerat sint eum fugiat aperiam reprehenderit, odit
+            facere ratione qui debitis voluptas porro quam! Eius, dolores sequi excepturi quaerat sint eum fugiat
+            aperiam reprehenderit, odit facere ratione qui debitis voluptas porro quam! Eius, dolores sequi excepturi
+            quaerat sint eum fugiat aperiam</p>
+
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque delectus laborum, laudantium excepturi
+            quaerat sint eum fugiat aperiam reprehenderit, odit facere ratione qui debitis voluptas porro quam! Eius,
+            dolores sequi excepturi quaerat sint eum fugiat aperiam reprehenderit, odit facere ratione qui debitis
+            voluptas porro quam! Eius, dolores sequi excepturi quaerat sint eum fugiat aperiam reprehenderit, odit
+            facere ratione qui debitis voluptas porro quam! Eius, dolores sequi excepturi quaerat sint eum fugiat
+            aperiam reprehenderit, odit facere ratione qui debitis voluptas porro quam! Eius, dolores sequi excepturi
+            quaerat sint eum fugiat aperiam</p>
+
+          <div class="btn">
+            <a href="">Red More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery section end-->
+ 
+
+
+<section class="contact-section" id="Contact">
+  <div class="container d-flex">
+
+      <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>123 Comfort Street<br>Foodie City, FC 12345</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>hello@cozycorner.com</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h3>Hours</h3>
+                <p>
+                  Mon-Fri: 9:00 AM - 10:00 PM<br>
+                  Sat-Sun: 10:00 AM - 11:00 PM
+                </p>
+              </div>
+            </div>
+          </div>
+
+ 
+      <!-- Right Side Form -->
+      <div class="col-md-6 form-box">
+     <form class="contact-form" id="contactForm" onsubmit="submitForm(event)">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required="">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required="">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required="">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required=""></textarea>
+              </div>
+
+              <div class="form-group full-width">
+                <button type="submit" class="button">Send Message</button>
+              </div>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="footer d-flex">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>About Us</h4>
+            <p>The Cozy Corner is your destination for modern comfort food. We believe in using fresh, locally-sourced ingredients to create wholesome meals that nourish both body and soul.</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+      
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+           <li class="nav-item">
+                  <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Contact</a>
+                </li>
+            </ul>
+
+          </div>
+      
+          <div class="footer-section">
+            <h4>Opening Hours</h4>
+            <ul>
+              <li>Monday - Friday: 9:00 AM - 10:00 PM</li>
+              <li>Saturday - Sunday: 10:00 AM - 11:00 PM</li>
+              <li>Holiday Hours May Vary</li>
+            </ul>
+          </div>
+      
+          <div class="footer-section">
+            <h4>Newsletter</h4>
+            <p>Subscribe to our newsletter for updates, special offers, and exclusive recipes!</p>
+            <form class="footer-subscribe">
+              <input type="email" placeholder="Your email address" class="p-2 w-full mb-2 border rounded">
+              <button type="submit" class="button w-full">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>© 2024 The Cozy Corner. All rights reserved.</p>
+          <p>Designed with <i class="fas fa-heart" style="color: #f8b400;"></i> for food lovers</p>
+        </div>
+      </footer>
+
+</body>
+
+</html>
